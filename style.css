@@ -1,0 +1,65 @@
+/*## Font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+    font-size: 16px
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body.error {
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.btn {
+    padding: 1em 1.5em;
+    font-size: 0,875rem;
+    background-color: limegreen;
+
+    border: limegreen solid 2px;
+    border-radius: .7em;
+
+    text-transform: uppercase;
+
+    transition: .3s ease-in-out;
+
+    display: inline-block;
+}
+
+a.btn:hover {
+    background-color: transparent;
+    border: limegreen solid 2px;
+    color: limegreen;
+}
+
+.btn:visited {
+    color: white;
+}
+
+.btn--big {
+    font-size: 0.875rem;
+}
+
+.wrapper {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.html-statis {
+    font-size: 4rem;
+}
+
+span.green {
+    color: limegreen;
+}
